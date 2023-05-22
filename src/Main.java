@@ -25,23 +25,34 @@ public class Main {
         System.out.println(12 + 10 + " yra grazus skaicius");
         System.out.println("grazus skaicius yra " + (10 + 2));
         System.out.println("grazus skaicius yra " + 10 + 2);
-        System.out.println(5-5);
-        System.out.println(5+5);
-        System.out.println(5*5);
-        System.out.println(5==5);
+        System.out.println(5 - 5);
+        System.out.println(5 + 5);
+        System.out.println(5 * 5);
+        System.out.println(5 == 5);
         System.out.println(12 % 5);
         System.out.println(13 % 2 == 0);
-
+        System.out.println("-----------------------------------------------------");
         int someNumber = 0;
-        someNumber = someNumber +2;
+        someNumber = someNumber + 2;
         System.out.println(someNumber);
         someNumber++;
         System.out.println(someNumber);
         name = "Emaxer";
         String surname = "Tohanol";
-        System.out.println(name +" yra " + surname);
+        System.out.println(name + " yra " + surname);
+        System.out.println("-----------------------------------------------------");
 
 
+        System.out.println(Math.random() * 10);
+        System.out.println(Math.round((Math.random() * 10)));
+        System.out.println("-----------------------------------------------------");
+        int max = 10;
+        int rndNum = (int) Math.round(Math.random() * Math.random() * 100);
+        System.out.println(rndNum);
+        int min = 10;
+        max = 20;
+       int rndNumInterval= min + (int) Math.round(Math.random()*(max - min ));
+        System.out.println(rndNumInterval);
 
     }
 }

@@ -32,5 +32,12 @@ public class Main {
         System.out.println(12 % 5);
         System.out.println(13 % 2 == 0);
 
+        int someNumber = 0;
+        someNumber = someNumber +2;
+        System.out.println(someNumber);
+        someNumber++;
+        System.out.println(someNumber);
+
+
     }
 }

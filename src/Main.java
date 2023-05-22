@@ -37,6 +37,10 @@ public class Main {
         System.out.println(someNumber);
         someNumber++;
         System.out.println(someNumber);
+        name = "Emaxer";
+        String surname = "Tohanol";
+        System.out.println(name +" yra " + surname);
+
 
 
     }

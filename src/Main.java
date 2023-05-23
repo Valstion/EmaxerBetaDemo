@@ -51,7 +51,7 @@ public class Main {
         System.out.println(rndNum);
         int min = 10;
         max = 20;
-       int rndNumInterval= min + (int) Math.round(Math.random()*(max - min ));
+        int rndNumInterval = min + (int) Math.round(Math.random() * (max - min));
         System.out.println(rndNumInterval);
 
     }
